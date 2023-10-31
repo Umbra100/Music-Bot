@@ -4,7 +4,7 @@
   "description": "A app/bot made to play music in the discord server in voice calls.",
   "main": "main.mjs",
   "scripts": {
-   "start": "node ./main.mjs"
+    "start": "node ./main.mjs"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Umbra100/Music-Bot/issues"
   },
-  "homepage": "https://github.com/Umbra100/Music-Bot#readme"
+  "homepage": "https://github.com/Umbra100/Music-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
 }
